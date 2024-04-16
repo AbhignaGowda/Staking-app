@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Staking on Sepolia Testnet with Thirdweb
 
 This repository demonstrates a staking application built using Thirdweb, designed to be deployed and tested on the Sepolia test network. Here, you'll experiment with staking functionalities in a simulated environment before interacting with a mainnet deployment.
@@ -88,3 +89,7 @@ Remember that this is a testnet environment, and any ETH or other assets used he
 
 - Consult Thirdweb's documentation ([Thirdweb Portal](https://portal.thirdweb.com/)) for detailed guidance on interacting with their staking functionalities.
 
+=======
+# Staking-app
+staking app for karpine
+>>>>>>> 1438fee0faaa990000ad0cae03fb7c0efd081a5e
