@@ -1,0 +1,97 @@
+.container {
+    width: 100%;
+    padding: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    height: 110vh;
+    width: 100%;
+  padding: 0 20px;
+background-color: black;  
+  }
+  
+  .containerTitle {
+    margin-left: 90px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0 !important;
+    margin-bottom: 40px;
+    font-size: 40px;
+    color: #feffff;
+    font-weight: 800;
+    line-height: 60px;
+    position: relative;
+    top: 20px;
+    right:210px;
+  }
+  
+  .cont {
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* To evenly distribute the space between the boxes */
+    height: 80vh;
+    
+  }
+  
+  .gradient-cards {
+    flex: 0 1 calc(50% - 16px); /* Each box takes up half the width with some gap */
+    margin-bottom: 32px; /* Adjust margin as needed */
+  }
+  
+  .card {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 40px;
+    border: none; /* Remove border from the card */
+  }
+  
+  .container-card {
+    border: 2px solid transparent;
+    background: linear-gradient(71deg, #563463, #110a15, #050106);
+    background-clip: padding-box;
+    border-radius: 45px;
+    padding: 40px;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    color: white;
+    letter-spacing: -0.02em;
+    line-height: 40px;
+    font-style: normal;
+    font-size: 28px;
+    padding-bottom: 8px;
+  }
+  
+  .card-description {
+    font-weight: 600;
+    line-height: 32px;
+    color: hsla(0, 0%, 100%, 0.5);
+    font-size: 16px;
+    max-width: 470px;
+  }
+  
+
+  @media (max-width: 768px) {
+    
+  
+  .containerTitle {
+    margin-left: 10px;
+    font-size: 20px;
+
+    /* text-align: center; */
+    margin-bottom: 40px;
+  }
+  .container {
+    width: 1200px;
+    padding: 0 !important;
+    margin-right: auto;
+    margin-left: auto;
+    height: 170vh;
+    width: 100%;
+  padding: 0 20px
+  }
+  
+}

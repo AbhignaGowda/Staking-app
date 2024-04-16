@@ -1,0 +1,19 @@
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 115vh; /* Ensure the parent container fills the entire viewport */
+  padding-top: 70px;
+
+}
+
+.video {
+    position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -1;
+}
